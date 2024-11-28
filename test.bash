@@ -12,10 +12,8 @@ res=0
 out=$(echo | ./omikuzi)
 [ "$?" = 0 ] || ng "$LINENO"
 
-echo "${out}" | grep -q "おみくじの結果は" || ng "$LINENO"
-
 echo "${out}" | grep -Eq "凶|末吉|半吉|吉|大吉" || ng "$LINENO"
-
+echo "${out}" | grep -q "あなたの運勢は..." || ng "$LINENO"
 
 ### STRANGE INPUT ###
 out=$(echo あ | ./omikuzi)
