@@ -1,5 +1,5 @@
 # randomコマンド
-
+[![test](https://github.com/03310317/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/03310317/robosys2024/actions/workflows/test.yml)
 
 ## プロジェクトタイトル
 
