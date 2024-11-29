@@ -21,16 +21,16 @@
 リポジトリURLはhttps://github.com/03310317/robosys2024.git こちらをクローンしてもらいcdでディレクトリに移動し、実行権限を与え実行します。
 
 - リポジトリをクローン
-  $ git clone https://github.com/03310317/robosys2024.git
+  - $ git clone https://github.com/03310317/robosys2024.git
 
 - ディレクトリに移動
-  $ cd robosys2024
+  - $ cd robosys2024
 
 - 実行権限を与える
-  $ chmod +x random
+  - $ chmod +x random
 
 - 実行
-  $ echo あなたの名前 | ./random
+  - $ echo あなたの名前 | ./random
  
 ## 実行方法の例
 
