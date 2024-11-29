@@ -71,12 +71,15 @@ comment = {
             },
         }
 
-print("おみくじを引く(press to Enter)")
+name = input(": ")
+if not name:
+    name = "匿名"
+
 input()
 
 i = random.choice(x)
 
-print(f"あなたの運勢は...")
+print(f"{name}さんの運勢は...")
 time.sleep(1)
 print(f"{i}")
 
