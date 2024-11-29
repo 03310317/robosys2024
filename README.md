@@ -18,7 +18,7 @@
 
 ## 使用方法
 
-リポジトリURLはhttps://github.com/03310317/robosys2024.gitこちらをクローンしてもらいcdでディレクトリに移動し、実行権限を与え実行します。
+リポジトリURLはhttps://github.com/03310317/robosys2024.git こちらをクローンしてもらいcdでディレクトリに移動し、実行権限を与え実行します。
 
 - リポジトリをクローン
   $ git clone https://github.com/03310317/robosys2024.git
