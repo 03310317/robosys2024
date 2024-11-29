@@ -27,7 +27,7 @@
   $ cd robosys2024
 
 - 実行権限を与える
-  $ chmod +x omikuzi
+  $ chmod +x random
 
 - 実行
   $ echo あなたの名前 | ./random
