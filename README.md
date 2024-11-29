@@ -44,7 +44,7 @@ $ echo あなたの名前 | ./random
 
 ```
 $ echo 山田太郎 | ./random
-```
+
 $ echo (空白) | ./random
 ```
 
