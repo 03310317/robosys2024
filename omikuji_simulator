@@ -70,11 +70,9 @@ comment = {
             '仕事': "諸事成果有り最善を尽くせ。",
             },
         }
-try:
-    name = sys.stdin.readline().strip()
-    if not name:
-        name = "匿名"
-except EOFError:
+
+name = input("").strip()
+if not name:
     name = "匿名"
 
 i = random.choice(x)
